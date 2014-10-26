@@ -1,0 +1,25 @@
+.tick {
+    height: 16.5%;
+    border-bottom: 1px solid black;
+    vertical-align: text-bottom;
+}
+
+.timer {
+    height: 600px;
+    max-width: 200px;
+    position: relative;
+}
+
+.remaining {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255,0,0,0.7);
+    z-index: -1;
+}
+
+body {
+    font-family: 'HelveticaNeue', sans-serif;
+}
